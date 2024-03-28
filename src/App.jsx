@@ -18,7 +18,7 @@ function App() {
   
   return (
     <div style={{ width: '100%',display:'flex' }}>
-     <Method1 />
+     {/* <Method1 /> */}
       <Method2 />
     </div>
   )

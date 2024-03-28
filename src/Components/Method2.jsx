@@ -10,7 +10,7 @@ const Method2 = () => {
       }
   return (
     <div>
-    <Document file={PDFFile} onLoadSuccess={onDocumentLoadSuccess}>
+    <Document file={'https://rusanmed.s3.eu-north-1.amazonaws.com/uploads/pdf/Comparison+of+Nalbuphine+versus+fentanyl+as+intrathecal+adjuvant+to+bupivacaine+for+orthopedic+surgeries+RCT_2022.pdf'} onLoadSuccess={onDocumentLoadSuccess}>
       <Page pageNumber={pageNumber} />
     </Document>
   </div>
